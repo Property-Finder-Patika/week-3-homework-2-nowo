@@ -9,9 +9,7 @@ import (
 var isGameFinished bool
 
 func main() {
-	//fmt.Println(compareGuessedNumberWithRandomNumber(guessedNumber, getRandomNumber()))
 	var guessedNumber int
-	//get number with scanf
 	var guessedNumberList []int
 	randomNumber := getRandomNumber()
 
